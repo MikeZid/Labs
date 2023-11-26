@@ -1,0 +1,40 @@
+body {
+    background: #ffffff;
+    font-size: 24px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 139, 109);
+}
+
+nav {
+    list-style-type: none;
+    float: right;
+}
+
+.tableBody {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10%;
+}
+
+.welcomeIMG {
+    width: 70%;
+    float: left;
+}
+
+.divBodyC {
+    font-size: 24px;
+    font-style: italic;
+    background-color: #40709e;
+    text-align: center;
+}
+
+.divBody {
+    font-size: 24px;
+    font-style: italic;
+    background-color: #ffffff;
+    text-align: right;
+}
