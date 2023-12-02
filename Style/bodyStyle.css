@@ -1,40 +1,117 @@
 body {
-    background: #ffffff;
-    font-size: 24px;
-    font-style: italic;
+  background: #ffffff;
+  font-size: 24px;
+  font-style: italic;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(0, 139, 109);
+  text-decoration: none;
+  background: rgb(0, 139, 109);
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  height: 100px;
+  width: 100px;
 }
 
-nav {
-    list-style-type: none;
-    float: right;
+a:hover {
+  filter: brightness(20%);
 }
 
-.tableBody {
-    width: 100%;
-    padding-top: 5px;
-    padding-left: 10%;
+li {
+  list-style-type: none;
+  margin-top: 5px;
+  width: fit-content;
+}
+
+.trMain {
+  background-image: url("./welcome1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 300px;
+}
+.aMore {
+  text-decoration: none;
+  background: rgb(96, 182, 79);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.liMore {
+  margin-top: 15%;
+  width: fit-content;
+}
+
+.navBody {
+  padding-left: 15%;
+  list-style-type: none;
+}
+
+.tableChapter {
+  font-size: 24px;
+  width: 100%;
+  font-style: italic;
 }
 
 .welcomeIMG {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 
-.divBodyC {
-    font-size: 24px;
-    font-style: italic;
-    background-color: #40709e;
-    text-align: center;
+.imgBody {
+  width: 80%;
+  height: 80%;
 }
 
-.divBody {
-    font-size: 24px;
-    font-style: italic;
-    background-color: #ffffff;
-    text-align: right;
+.divBodyChapter {
+  text-align: center;
+}
+
+.tableBody {
+  font-size: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  font-style: italic;
+  background-color: #ffffff;
+}
+
+.divChapter {
+  font-size: 32px;
+  font-style: italic;
+  background-color: #40709e;
+  border-radius: 20px;
+  width: 50%;
+  margin-inline: auto;
+}
+
+.divChapter::before {
+  content: "<<";
+}
+
+.divChapter::after {
+  content: ">>";
+}
+
+.tableFooter {
+  padding-top: 50px;
+  width: 100%;
+  height: 400px;
+  background-color: #40709e;
+}
+
+.divFooter {
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 300px;
+}
+
+.divCopyRight {
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  margin-top: 360px;
 }
