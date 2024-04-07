@@ -1,0 +1,115 @@
+#menu {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 250px;
+    border: solid 1px rgb(rgb(0, 0, 0));
+}
+
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 0 5px
+}
+
+.menuButton {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 4%; 
+    margin-right: 5px;
+    border: solid 1px;
+    box-shadow: 8px 4px 4px #40709e;
+}
+
+.divHotel{
+    width: 80%;
+    border: solid 1px black;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: 8px 5px 5px #40709e;
+}
+
+
+.imgHotel {
+    width: 100%;
+    height: 40%;
+}
+
+.imgHotel:hover {
+    transform: scale(1.5, 1.5);
+  }
+
+.btnHotel {
+    height: 10%;
+    width: 100%;
+    border: solid 1px;
+    border-radius: 7px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.diagonalMain {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 500px;
+    border: solid 1px rgb(rgb(0, 0, 0));
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.d{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.sk{
+    width: 0px;
+    height: 200px;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+.link:hover {
+    transition: 2s;
+    background-color:#40709e;
+}
+
+#stars5 {
+    background-image: url("../Resources/5stars.png");
+}
+
+#stars4 {
+    background-image: url("../Resources/4stars.png");
+}
+
+#stars3 {
+    background-image: url("../Resources/3stars.png");
+}
+
+#stars2 {
+    background-image: url("../Resources/2stars.png");
+}
+
+#stars1 {
+    background-image: url("../Resources/1stars.png");
+}
