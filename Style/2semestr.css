@@ -88,12 +88,25 @@
     width: 100%;
     height: 100%;
 }
+
+.link::before {
+    opacity: 1;
+}
+
 .link:hover {
     transition: 2s;
-    background-color:#40709e;
+
 }
 
 #stars5 {
+    background-image: url("../Resources/5stars.png");
+}
+
+#stars5:hover {
+    filter: brightness(150%);
+}
+
+#stars5:link {
     background-image: url("../Resources/5stars.png");
 }
 
@@ -101,14 +114,30 @@
     background-image: url("../Resources/4stars.png");
 }
 
+#stars4:hover {
+    filter: brightness(150%);
+}
+
 #stars3 {
     background-image: url("../Resources/3stars.png");
+}
+
+#stars3:hover {
+    filter: brightness(150%);
 }
 
 #stars2 {
     background-image: url("../Resources/2stars.png");
 }
 
+#stars2:hover {
+    filter: brightness(150%);
+}
+
 #stars1 {
     background-image: url("../Resources/1stars.png");
+}
+
+#stars1:hover {
+    filter: brightness(150%);
 }
